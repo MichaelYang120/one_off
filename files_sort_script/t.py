@@ -78,6 +78,7 @@ def execute():
     organize_data()
     zip_tmp_directory()
     move_zip_files()
-    create_finished_directory()
+    #this need to be looked at, does not work properly with window devices
+    #create_finished_directory()
 
 execute()
